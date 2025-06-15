@@ -33,7 +33,7 @@ jobs:
         run: |
           python -c "
           import pandas as pd
-          from preprocessing import preprocess_data
+          from preprocessing.automate_Nida import preprocess_data
 
           df = pd.read_csv('apple-quality_raw.csv')
           preprocess_data(
